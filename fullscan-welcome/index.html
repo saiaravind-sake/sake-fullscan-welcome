@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Welcome to Fullscan</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background decorations -->
+    <div class="background-circle circle-one"></div>
+    <div class="background-circle circle-two"></div>
+
+    <!-- Header -->
+    <header class="hero">
+
+        <div class="badge">
+            ✨ AravindOps
+        </div>
+
+        <h1>
+            Welcome to <span>Fullscan</span>
+        </h1>
+
+        <p class="subtitle">
+            Take a deep breath. Leave the stress behind.
+        </p>
+
+        <p class="small-text">
+            Click your name, solve a tiny challenge and reveal your message.
+        </p>
+
+    </header>
+
+
+    <!-- People Section -->
+
+    <main>
+
+        <section class="people-section">
+
+            <div class="section-heading">
+
+                <h2>
+                    Meet the Fullscan Family
+                </h2>
+
+                <p>
+                    Choose your name to unlock your surprise 💫
+                </p>
+
+            </div>
+
+
+            <div id="peopleContainer" class="people-grid">
+
+                <!-- JavaScript will create the cards here -->
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Math Modal -->
+
+    <div id="mathModal" class="modal">
+
+        <div class="modal-box">
+
+            <button id="closeModal" class="close-button">
+                ×
+            </button>
+
+            <div class="math-icon">
+                🧠
+            </div>
+
+            <h2>
+                One tiny challenge!
+            </h2>
+
+            <p id="mathQuestion">
+                Solve this:
+            </p>
+
+            <input
+                type="number"
+                id="answerInput"
+                placeholder="Your answer"
+                autocomplete="off"
+            >
+
+            <button id="submitAnswer" class="submit-button">
+                Check Answer
+            </button>
+
+            <p id="attemptMessage" class="attempt-message"></p>
+
+        </div>
+
+    </div>
+
+
+    <!-- Success Message -->
+
+    <div id="successToast" class="success-toast">
+
+        <span>🎉</span>
+
+        <div>
+            <strong>Correct!</strong>
+            <p>Stress level: 0%</p>
+        </div>
+
+    </div>
+
+
+    <footer>
+
+        <p>
+            Made with <3 for the Fullscan Family - Aravind
+        </p>
+
+        <p class="footer-small">
+            <P>Enjoyment quota completed. Now back to work, soldier</P>
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
